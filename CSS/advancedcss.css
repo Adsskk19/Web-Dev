@@ -1,0 +1,13 @@
+@font-face {
+    font-family: MyPoppin;
+    src: url(./Poppins-Light.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad+Guides&display=swap');
+h1{
+    color: blueviolet;
+    background-color: yellowgreen;
+    /* font-family: MyPoppin; */
+    font-family: "Playwrite US Trad Guides", cursive;
+}
+
+

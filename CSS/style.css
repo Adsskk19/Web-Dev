@@ -1,0 +1,59 @@
+/* * {
+    color: brown
+}
+h1 {
+    color: aqua;
+}
+.kiran{
+    color: crimson;
+    background-color: aqua;
+}
+#remo{
+    color: blue;
+    background-color: aquamarine;
+} */
+p{
+    color: red;
+    /* background-color:#fbbc05; */
+        /* background-color: rgb(255, 255,0); */
+                /* background-color: rgba(50%, 50%,0.1%);  */
+    font-family: 'Franklin Gothic Medium';
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: wavy;
+    /* text-decoration: underline; */
+    /* text-decoration-thickness: unset; */
+    text-shadow: 3px 3px 3px violet;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

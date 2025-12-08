@@ -1,0 +1,26 @@
+.box{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    /* margin: 60px; */
+    background-color: chartreuse;
+    box-sizing: border-box;
+}
+/* h1{
+    border-color: red;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 30px;
+} */
+/* .bg { */
+    /* height: 500px;
+    width: 700px; */
+    /* background-image: url('https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=620&auto=format&fit=crop&q=60&ixlib=rb-4.1.0');
+    background-size: cover;
+    background-position: center; */
+    /* linear gradient */
+    /* background:linear-gradient(225deg, red,blue,green); */
+    /* radial gradient */
+    /* background: radial-gradient(circle at center ,red,orange,blue);
+    box-shadow: 20px 20px 120px black; */
+/* }  */
