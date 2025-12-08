@@ -1,0 +1,118 @@
+CSS:Day1
+----------
+Selector{
+property:value;
+}
+ex: h1{ color:red; }
+CSS styling 3 types:
+Inline CSS
+Internal CSS
+External CSS --> 90%
+Selectors types:
+1.*
+2.tag or element
+3.[ .class]
+4.[ #id ]
+
+CSS:Day2
+--------
+Text Styling properties:
+Gil roy font download
+
+p{
+font-family:cursive;
+font-size:50px;
+font-style:oblique; | italiac;
+font-weight:900; =>Bold
+line-height:0.8; 1; 1.5, 2;
+letter-spacing: 5px;
+word-spacing: 20px;
+text-align: center; //left, right
+text-transform: uppercase/lowercase/capitalize
+text-decoration-line: underline/overline/line-through;
+text-decoration-color: green;
+text-decoration-style: dotted/double/wavy;
+text-decoration:underline,none; //you can give above all three here
+text-shadow: 3px 3px 3px violet;
+
+}
+
+hex code you can find colors there.
+background-color:#fbbc05;
+background-color:rgb(255,255,255)
+background-color:rgba(50%,50%,3% ) -> you can give percentages
+
+CSSDay3:**
+---------
+BoxModel:
+
+div-> closed container
+Box: height width padding margin model
+
+//div box model syntax
+.box{
+height:200px;
+width:200px;
+background-color:brown;
+padding:20px;
+box-sizing: content-box;// 220px+20px height/width +padding
+ex: Tents you can extend
+box-sizing: border-box; // here No extension ex: Own house/Flat
+}
+
+//paragraph borders
+p{
+border-width:5px;
+border-style: solid
+border-color: red
+border-radius:10px
+}
+
+//background image setting
+.bg{
+height:500px;
+width:500px;
+background-image: url('.........');
+background-size: cover;
+background-position: center;
+
+//linear gradient colors
+background-image:linear-graident(to right red,blue,green)
+
+}
+
+//radial gradient-> ellipse,circle
+    height: 500px;
+    width: 700px;
+  background: radial-gradient(ellips at center ,red,orange,blue);
+    box-shadow: 20px 20px 120px black;
+  background: radial-gradient(circle at center ,red,orange,blue);
+    box-shadow: 20px 20px 120px black;
+
+
+CSSDay4:*
+---------
+
+download a font
+add that to your folder
+it is a .ttf file means true-type-font file
+Register in CSS File:
+@font-face{
+font-family: MyPoppin;
+src:url(./Poppins-Light.ttf)
+}
+
+h1{
+  color: blueviolet;
+    background-color: yellowgreen;
+    font-family: MyPoppin;
+}
+//you can import a poppin in to css file
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad+Guides&display=swap');
+h1{
+    color: blueviolet;
+    background-color: yellowgreen;
+    font-family: "Playwrite US Trad Guides", cursive;
+}
+
+Positions:
