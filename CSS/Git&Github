@@ -1,0 +1,24 @@
+Git & GitHub:
+-------------
+git config user.name
+git config user.email
+git init -> initialises git and shows U means untracked
+git add . -> add all untracked files and in staging
+git branch -> To know the branches and which branch you are in
+git branch test -> test branch created
+git checkout test -> switched to branch test
+//make changes in html file that changes available only in test branch
+git branch
+master
+*test --> test branch lo undhu
+
+git checkout master -> master branch ki shift ayyaam
+git merge test -> test branch lo changes master branch ki fastforward ayyay
+
+//you can add git lens extension in VSCode.
+
+------------------GitHub ----------------
+create a repo in GitHub
+copy https path
+git clone https://github.com/Adsskk19/Web-Dev.git
+git remote -v -> to check which account we are connected
