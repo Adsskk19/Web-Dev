@@ -1,0 +1,19 @@
+Pseudo Classes => : hover focus
+Pseudo Elements => :: before after content for buttons.
+transition/transform => linear cubic-bezier, ease in ease out ease inout
+skew scale rotate
+Animations => @keyframes from-to, 0% 50% 100%
+
+Units:
+------
+Units:
+%, vh, vw, em, rem-> responsive            px-> static
+viewport height and width
+% -> depends on parent for child
+vh vw -> depends on browser
+em, rem:
+--------
+1 rem =16px;bydefault and  depends on root html
+1em =16px by defalut but depends on parent element.
+according to parents it adjust/changes
+if parent has 100px-->2em child will have 50px--> em

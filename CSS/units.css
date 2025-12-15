@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+.parent{
+    height: 50vh;
+    width: 50vw;
+    background-color: burlywood;
+}
+.child{
+    height: 25vh;
+    width: 50vw;
+    background-color: red;
+}
+/* h1{
+    font-size: 2em;
+} */
+html{
+    font-size: 27px;
+}
+ h1{
+    font-size: 2rem;
+}
+p{
+    font-size: medium;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+}

@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ffff;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+body{
+    background-color: black;
+}
+.parent{
+    height: 1000px;
+    width: 1000px;
+    background-color: burlywood;
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px; */
+    grid-template-areas: 
+    "a a b" 
+    "a a b" 
+    "c c c";
+
+}
+.child{
+    background-color: red;
+    border: 2px solid black;
+}
+.child-a{
+    grid-area: a;
+    background-color: chocolate;
+}
+.child-b{
+     grid-area: b;
+    background-color: blueviolet;
+}
+.child-c{
+     grid-area: c;
+    background-color: yellow;
+}

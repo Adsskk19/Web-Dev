@@ -1,0 +1,151 @@
+**CSS Day5:**
+
+**Pseudo Classes \& Elements:**
+
+**---------------------------**
+
+button:hover{
+
+&nbsp;   color: red;
+
+&nbsp;   background-color: green;
+
+}
+
+input:focus{
+
+&nbsp;   color: azure;
+
+&nbsp;   background-color: brown;
+
+}
+
+li::before{
+
+&nbsp;   content: '>';
+
+}
+
+
+
+**Transitions:**
+
+button:hover{
+
+&nbsp;   color: red;
+
+&nbsp;   background-color: green;
+
+}
+
+button{
+
+&nbsp;   color: red;
+
+&nbsp;   background-color: black;
+
+&nbsp;   transition:all linear 2s; 
+
+&nbsp;	transition:all cubic-bezier(0.19, 1, 0.22, 1) 2s; 
+
+&nbsp;	transition:all ease-in-out 2s; 
+
+&nbsp;	transition: background-color ease-out 2s;
+
+
+
+}
+
+\###############**Kajukatli**##############
+
+\#box{
+
+  height: 200px;
+
+   width: 200px;
+
+   background-color: chocolate;
+
+   margin: 40px;
+
+   transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+
+  /\* transform: translate(100px,100px); \*/
+
+  /\* transform: rotate(45deg); \*/
+
+  transform: scale(1); 
+
+}
+
+#box:hover{
+
+    transform: skew(10deg,20deg);
+
+}
+
+
+
+**Animations:**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
