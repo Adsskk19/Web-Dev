@@ -1,0 +1,1 @@
+//mdn docs for JavaScript
