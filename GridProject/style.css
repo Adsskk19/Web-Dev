@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ffff;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+body{
+    background-color: black;
+}
+.images{
+    width: 100%;
+    background-color: wheat;
+    display: grid;
+    grid-template-areas: "a" "b" "c" "d" "e" "f";
+    gap:20px;
+}
+@media(min-width:820px){
+.images{
+    display: grid;
+    grid-template-areas: "a a b b" "a a b b" "c d e f";
+    gap:20px;
+}
+}
+img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+.image-a{
+ grid-area: a;
+}
+.image-b{
+ grid-area: b;
+}
+.image-c{
+ grid-area: c;
+}
+.image-d{
+ grid-area: d;
+}
+.image-e{
+ grid-area: e;
+}
+.image-f{
+ grid-area: f;
+}
