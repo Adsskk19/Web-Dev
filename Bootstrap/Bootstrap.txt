@@ -1,0 +1,42 @@
+.scss, .css
+Bootstrap -> CSS framework
+Components
+Login page
+sign up page
+navbar
+cards
+home page
+page linking
+drop downs
+footer
+alerts
+buttons
+badges notifications
+pop ups
+search bar
+carousels
+accordians
+
+CDN-> Content Delivery Network
+Urls->www.google.com -> USA
+BUT CDNs are nearby locations Mumbai near hubs
+
+flex
+Grid - mediaqueries
+we follow mobile first approach 
+
+container -> has Some right left gaps
+.container-fluid -> takes full width
+Breakpoints for different screens
+
+External CSS can override Bootstrap Components
+
+container+Grid
+rows and columns untayi
+according to bootstrap 1 row = 12 columns
+
+Task:
+Cars, Sell company, Tata Cars
+zomato/swiggy Landing/homepage
+
+netlify/render/vercel/github pages
