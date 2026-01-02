@@ -1,1 +1,50 @@
-JAVASCRIPT
+JAVASCRIPT:
+-----------
+For-> control i, break, continue, when u know start & end.
+
+foreach -> when you wanted to do anything on each element in an array.
+no break and no continue.
+
+for in -> objects
+loop throught the keys or values
+
+for of ->
+want to get cleaner than foreach then we go for for-of
+break and continue we can use
+
+Functions:
+----------
+if you want to reuse set of instructions we use functions.
+
+Hoisting:
+-----------
+// console.log(a)
+// var a =10; //undefined
+Two Concepts in Programming Language:
+-------------------------------------
+WET->Write everything twice
+DRY -> Donot Repeat Yourself   [ "best practice" ] 
+thats why we use functions!
+
+Rest Operator:
+...
+note:- when u use ... in functions it is called as rest opertaor.
+
+functions:
+Hoisting
+function statement
+function expression
+Anonymous function
+fat arrow function
+fat arrow function with implicit return and explicit return
+iife-immediately invoked function expression
+
+
+HOF: Higher Order Function
+Call back functions
+pure functions
+impure functions
+first order function
+closure
+scopes: global, local scope
+map -for each example ,reduce, filter, 
